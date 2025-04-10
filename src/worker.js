@@ -48,7 +48,7 @@ const API_CONFIGS = {
     description: "Curssr 2 API 代理服务",
     logo: "🎃"
   },
-    cursor: {
+    geminiproxypanel: {
     host: "gaoqilan-gemini-proxy-panel.hf.space",
     paths: ["/v1"],
     description: "Gemini 代理池代理服务",
