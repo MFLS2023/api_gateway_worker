@@ -60,37 +60,37 @@ const API_CONFIGS = {
     description: "Qodo 2 API 代理池代理服务",
     logo: "🧨"
   },
-    damser(grok) : {
+    damser(grok): {
     host: "api.damser.xyz",
     paths: ["/v1"],
     description: "Grok API 代理池代理服务",
     logo: "🎉"
   },
-    openRouter(ds_gemini) : {
+    openRouter(ds_gemini): {
     host: "openrouter.ai/api",
     paths: ["/v1"],
     description: "OpenRouter API 代理服务",
     logo: "🎪"
   },
-    chutes(ds) : {
+    chutes(ds): {
     host: "llm.chutes.ai",
     paths: ["/v1"],
     description: "Chutes API 代理服务",
     logo: "🎇"
   },
-    yunwu : {
+    yunwu: {
     host: "free.yunwu.ai",
     paths: ["/v1"],
     description: "Yunwu API 代理服务",
     logo: "🎊"
   },
-    genspark : {
+    genspark: {
     host: "gs.aytsao.cn",
     paths: ["/v1"],
     description: "Dean API 代理服务",
     logo: "🎏"
   },
-    deepinfra(ds_claude) : {
+    deepinfra(ds_claude): {
     host: "api.deepinfra.com/v1/openai/",
     paths: ["/v1"],
     description: "Deepinfra API 代理服务",
