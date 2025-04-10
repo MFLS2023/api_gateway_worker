@@ -41,7 +41,19 @@ const API_CONFIGS = {
       paths: ['/bot'],
       description: "Telegram Bot API 代理服务",
       logo: "📱"
-    }
+    },
+    cursor: {
+    host: "gaoqilan-cursor2api.hf.space/hf",
+    paths: ["/v1/"],
+    description: "Curssr 2 API 代理服务",
+    logo: "🎃"
+  },
+    cursor: {
+    host: "gaoqilan-gemini-proxy-panel.hf.space",
+    paths: ["/v1"],
+    description: "Gemini 代理池代理服务",
+    logo: "💻"
+  }
   };
 
   const HTML_TEMPLATE = `<!DOCTYPE html>
