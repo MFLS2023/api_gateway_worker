@@ -54,6 +54,12 @@ const API_CONFIGS = {
     description: "Gemini API 代理池代理服务",
     logo: "💻"
   },
+    geminihajimi: {
+    host: "gaoqilan-geminihajimi.hf.space",
+    paths: ["/v1"],
+    description: "Gemini API 轮询服务",
+    logo: "🐕"
+  },
     qodo: {
     host: "gaoqilan-qodo2api.hf.space",
     paths: ["/v1"],
