@@ -51,14 +51,26 @@ const API_CONFIGS = {
     geminiproxypanel: {
     host: "gaoqilan-gemini-proxy-panel.hf.space",
     paths: ["/v1"],
-    description: "Gemini API 代理池代理服务",
+    description: "Gemini-proxy-panel 代理服务",
     logo: "💻"
   },
     geminihajimi: {
-    host: "gaoqilan-geminihajimi.hf.space",
+    host: "gaoqilan-jimi.hf.space",
     paths: ["/v1"],
-    description: "Gemini API 轮询服务",
+    description: "Gemini hajimi 轮询服务",
     logo: "🐕"
+  },
+    geminihajimi: {
+    host: "gaoqilan-jimi1.hf.space",
+    paths: ["/v1"],
+    description: "Gemini hajimi1 轮询服务",
+    logo: "🤹"
+  },
+    geminihajimi: {
+    host: "gaoqilan-reno.hf.space",
+    paths: ["/v1"],
+    description: "Gemini balance 轮询服务",
+    logo: "⛷️"
   },
     qodo: {
     host: "gaoqilan-qodo2api.hf.space",
