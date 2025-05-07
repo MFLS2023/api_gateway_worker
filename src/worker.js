@@ -60,13 +60,13 @@ const API_CONFIGS = {
     description: "Gemini hajimi 轮询服务",
     logo: "🐕"
   },
-    geminihajimi: {
+    geminihajimi1: {
     host: "gaoqilan-jimi1.hf.space",
     paths: ["/v1"],
     description: "Gemini hajimi1 轮询服务",
     logo: "🤹"
   },
-    geminihajimi: {
+    geminibalance: {
     host: "gaoqilan-reno.hf.space",
     paths: ["/v1"],
     description: "Gemini balance 轮询服务",
